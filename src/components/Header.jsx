@@ -2,7 +2,7 @@ import MediumLogo from "../assets/logo.png"
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between py-4 px-20">
+    <header className="flex items-center justify-between py-4 px-6 md:px-20">
             <div>
                 <a
                     href="https://medium.com/"
@@ -14,7 +14,7 @@ const Header = () => {
             </div>
             <div>
                 <ul className="flex gap-5">
-                    <li className="hover:underline">
+                    <li className="hover:underline hidden md:block">
                         <a
                         href="https://medium.com/about?autoplay=1"
                         rel="noopener noreferrer"
@@ -23,7 +23,7 @@ const Header = () => {
                             Our story
                         </a>
                     </li>
-                    <li className="hover:underline">
+                    <li className="hover:underline hidden md:block">
                         <a
                             href="https://medium.com/membership"
                             rel="noopener noreferrer"
@@ -32,7 +32,7 @@ const Header = () => {
                         Membership
                         </a>
                     </li>
-                    <li className="hover:underline">
+                    <li className="hover:underline hidden md:block">
                         <a
                             href="https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story"
                             rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const Header = () => {
                         Write
                         </a>
                     </li>
-                    <li className="hover:underline">
+                    <li className="hover:underline hidden md:block">
                         <a
                              href="https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F"
                             rel="noopener noreferrer"
